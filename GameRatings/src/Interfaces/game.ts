@@ -1,7 +1,8 @@
 export interface Game {
-  id?: number;
+  id: string;
   title: string;
   releaseDate: string;
+  genre: string;
   description: string;
   imageUrl: string;
 }

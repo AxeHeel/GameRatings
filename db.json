@@ -1,188 +1,615 @@
 {
   "games": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Terraria",
       "releaseDate": "2011-05-16",
+      "genre": "sandbox",
       "description": "Egy 2D-s sandbox kalandjáték, amelyben felfedezheted a véletlenszerűen generált világot, bányászhatsz, építhetsz és harcolhatsz több száz különböző ellenség ellen.",
       "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Undertale",
       "releaseDate": "2015-09-15",
+      "genre": "indie rpg",
       "description": "Egy RPG játék, amelyben egy ember gyermek kerül a föld alá, szörnyek által lakott világba. Egyedülálló harci rendszere lehetővé teszi, hogy ellenfelekkel barátkozz ahelyett, hogy megölnéd őket.",
       "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/391540/header.jpg"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Stardew Valley",
       "releaseDate": "2016-02-26",
+      "genre": "indie simulation",
       "description": "Egy mezőgazdasági szimulátor RPG, amelyben egy elhagyott farmon kezdesz új életet. Termesztj növényeket, tenyéssz állatokat, ismerkedj a helyiekkel és fedezd fel a titkos barlangokat.",
       "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/413150/header.jpg"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Death Stranding",
       "releaseDate": "2019-11-08",
+      "genre": "action",
       "description": "Egy posztapokaliptikus akció-kalandjáték, amelyben Sam Porter Bridges küldetése egy szétszakadt Amerika újraegyesítése csomagok szállításával egy futurisztikus, veszélyekkel teli világban.",
       "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1190460/header.jpg"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Cuphead",
       "releaseDate": "2017-09-29",
+      "genre": "indie action",
       "description": "Egy klasszikus run-and-gun akciójáték, amelynek stílusa az 1930-as évek rajzfilmjeit idézi. Cuphead és Mugman a Ördöggel kötött adósságukat kell visszafizessék nehéz boss-harcok során.",
       "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/268910/header.jpg"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Cyberpunk 2077",
       "releaseDate": "2020-12-10",
+      "genre": "rpg action",
       "description": "Egy nyílt világú akció-RPG a futurisztikus Night City városában, ahol bérgyilkosként V szerepét játszod, miközben egy egyedi biochip titka után kutatod.",
       "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg"
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Detroit: Become Human",
       "releaseDate": "2018-05-25",
+      "genre": "action",
       "description": "Egy interaktív dráma és kalandjáték, amelyben három androidot irányítasz egy közeljövőbeli Detroitban, ahol az androidok öntudatra ébrednek és jogaikért küzdenek.",
       "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1222140/header.jpg"
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Phasmophobia",
       "releaseDate": "2020-09-18",
+      "genre": "horror",
       "description": "Egy kooperatív pszichológiai horror játék, amelyben paranormális nyomozóként különböző helyszíneken kell szellemeket azonosítanod és bizonyítékokat gyűjtenéd.",
       "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/739630/header.jpg"
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "Life is Strange",
       "releaseDate": "2015-01-30",
+      "genre": "indie",
       "description": "Egy epizodikus kalandjáték, amelyben Max Caulfield fotós diák képes visszatekererni az időt. Döntéseid alakítják a történetet és barátod, Chloe sorsát.",
       "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/319630/header.jpg"
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "Stray",
       "releaseDate": "2022-07-19",
+      "genre": "indie action",
       "description": "Egy third-person kalandjáték, amelyben egy elveszett macska bőrébe bújsz egy cyberpunk városban, robotok és futurisztikus veszélyek között kell utat találnod haza.",
       "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1332010/header.jpg"
     },
     {
-      "id": 11,
+      "id": "11",
       "title": "Rocket League",
       "releaseDate": "2015-07-07",
+      "genre": "sports",
       "description": "Egy hibrid futball és autóverseny játék, amelyben rakétával hajtott autókkal játszol futballt egy arénában. Egyszerű megtanulni, de évekig tart elsajátítani.",
       "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/252950/header.jpg"
     },
     {
-      "id": 12,
-      "title": "Fortnite",
-      "releaseDate": "2017-07-25",
-      "description": "Egy battle royale játék, amelyben 100 játékos küzd egymás ellen egy zsugorodó térképen. Egyedi építési mechanikája és rendszeres frissítései miatt folyamatosan változó élményt nyújt.",
-      "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1677740/header.jpg"
-    },
-    {
-      "id": 13,
+      "id": "12",
       "title": "Elden Ring",
       "releaseDate": "2022-02-25",
+      "genre": "rpg action",
       "description": "Egy nyílt világú akció-RPG FromSoftware és George R.R. Martin együttműködésében. A Between Lands hatalmas világában kell összegyűjtened az Elden Ring töredékeit.",
       "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg"
     },
     {
-      "id": 14,
+      "id": "13",
       "title": "Minecraft",
       "releaseDate": "2011-11-18",
+      "genre": "sandbox",
       "description": "Egy sandbox játék, amelyben blokkokból építhetsz bármit, bányászhatsz nyersanyagokat, és túlélhetsz éjszakánként megjelenő szörnyekkel szemben. Végtelen lehetőségeket kínáló világ.",
       "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1672970/header.jpg"
     },
     {
-      "id": 15,
+      "id": "14",
       "title": "Counter-Strike 2",
       "releaseDate": "2023-09-27",
+      "genre": "action",
       "description": "A világ legnépszerűbb taktikai lövöldözős játékának legújabb verziója. Terroristák és különleges egységek csapnak össze bombák hatástalanítása és túszmentés körülményei között.",
       "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg"
     },
     {
-      "id": 16,
+      "id": "15",
       "title": "Hollow Knight",
       "releaseDate": "2017-02-24",
+      "genre": "indie action",
       "description": "Egy gyönyörűen rajzolt akció-kalandjáték egy elhagyott rovar királyságban. Fedezd fel Hallownest hatalmas, egymással összefüggő területeit és küzdj meg nehéz főellenfelekkel.",
       "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/367520/header.jpg"
     },
     {
-      "id": 17,
+      "id": "16",
       "title": "Hades",
       "releaseDate": "2020-09-17",
+      "genre": "indie rpg",
       "description": "Egy roguelike akció-RPG, amelyben Zagreus, Hádész fia ismételten megpróbál megszökni az Alvilágból. Minden sikertelen kísérlet új párbeszédeket és történetszálakat tár fel.",
       "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/header.jpg"
+    },
+    {
+      "id": "17",
+      "title": "PUBG: Battlegrounds",
+      "releaseDate": "2017-12-21",
+      "genre": "battle royale",
+      "description": "A battle royale műfaj egyik legismertebb játéka, ahol 100 játékos harcol egymás ellen, amíg csak egy marad talpon.",
+      "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/578080/header.jpg"
+    },
+    {
+      "id": "18",
+      "title": "Apex Legends",
+      "releaseDate": "2020-11-04",
+      "genre": "battle royale",
+      "description": "Hős alapú battle royale játék, ahol csapatok versenyeznek egymással különböző képességekkel rendelkező karakterekkel.",
+      "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172470/header.jpg"
     }
   ],
-  "users": [
-    { "id": 1, "username": "gamer_krisztian", "password": "hashedpw1" },
-    { "id": 2, "username": "pixelhunter_anna", "password": "hashedpw2" },
-    { "id": 3, "username": "darksouls_bence", "password": "hashedpw3" },
-    { "id": 4, "username": "indieguru_reka", "password": "hashedpw4" },
-    { "id": 5, "username": "retroplayer_tamas", "password": "hashedpw5" },
-    { "id": 6, "username": "speedrunner_david", "password": "hashedpw6" },
-    { "id": 7, "username": "casualgamer_zsuzsa", "password": "hashedpw7" },
-    { "id": 8, "username": "lorekeeper_peter", "password": "hashedpw8" },
-    { "id": 9, "username": "npcfan_nora", "password": "hashedpw9" },
-    { "id": 10, "username": "pvpmaster_adam", "password": "hashedpw10" }
-  ],
   "comments": [
-    { "id": 1,  "gameId": 1,  "userId": 1,  "username": "gamer_krisztian",  "rating": 5, "content": "Több mint 500 óra és még mindig találok új dolgokat. Az egyik legjobb sandbox játék valaha.", "createdAt": "2024-03-10T14:22:00Z" },
-    { "id": 2,  "gameId": 1,  "userId": 4,  "username": "indieguru_reka",    "rating": 5, "content": "A bossok és az épitési lehetőségek tökéletes egyensúlya. Minecraft után ez kötelező.", "createdAt": "2024-04-02T09:10:00Z" },
-    { "id": 3,  "gameId": 1,  "userId": 7,  "username": "casualgamer_zsuzsa","rating": 4, "content": "Nagyon élveztem, bár eleinte kicsit elveszett voltam az óriási tartalomban.", "createdAt": "2024-05-15T18:45:00Z" },
-    { "id": 4,  "gameId": 2,  "userId": 4,  "username": "indieguru_reka",    "rating": 5, "content": "Az Undertale megváltoztatta, hogyan gondolok a videojátékokra. A zenéje és a sztorijа páratlan.", "createdAt": "2024-01-20T11:30:00Z" },
-    { "id": 5,  "gameId": 2,  "userId": 9,  "username": "npcfan_nora",       "rating": 5, "content": "Sírva végeztem el. A karakterek annyira élnek, hogy nehéz elhinni, hogy csak pixelek.", "createdAt": "2024-02-14T20:05:00Z" },
-    { "id": 6,  "gameId": 2,  "userId": 5,  "username": "retroplayer_tamas", "rating": 4, "content": "Zseniális ötletek, de a pacifista végigjátszáshoz nagyon sok türelem kell.", "createdAt": "2024-03-30T16:00:00Z" },
-    { "id": 7,  "gameId": 3,  "userId": 7,  "username": "casualgamer_zsuzsa","rating": 5, "content": "Terapeutikus hatása van. Tél végén mindig visszatérek hozzá, mint valami rituálé.", "createdAt": "2024-02-28T21:00:00Z" },
-    { "id": 8,  "gameId": 3,  "userId": 9,  "username": "npcfan_nora",       "rating": 5, "content": "A falubeliek karakterei olyan mélyek. Harvey és Penny a kedvenceim.", "createdAt": "2024-04-10T10:20:00Z" },
-    { "id": 9,  "gameId": 3,  "userId": 2,  "username": "pixelhunter_anna",  "rating": 4, "content": "Tökéletes relaxációs játék, de a bányászás egy idő után repetitívvé válik.", "createdAt": "2024-05-01T13:40:00Z" },
-    { "id": 10, "gameId": 4,  "userId": 8,  "username": "lorekeeper_peter",  "rating": 4, "content": "Kojima megint a saját útját járja. A világ felépítése és az atmoszféra lenyűgöző, bár a gameplay megosztó.", "createdAt": "2024-01-15T19:30:00Z" },
-    { "id": 11, "gameId": 4,  "userId": 1,  "username": "gamer_krisztian",   "rating": 3, "content": "Vizuálisan gyönyörű, de 30 perc szállítás után egy kicsit unalmas lett. Nem mindenkinek való.", "createdAt": "2024-02-22T17:00:00Z" },
-    { "id": 12, "gameId": 4,  "userId": 3,  "username": "darksouls_bence",   "rating": 5, "content": "Pontosan az a fajta szokatlan élmény, amire szükségem volt. Az online közösségi elem zseniális.", "createdAt": "2024-03-18T14:10:00Z" },
-    { "id": 13, "gameId": 5,  "userId": 6,  "username": "speedrunner_david",  "rating": 5, "content": "A vizuális stílus elképesztő, és a boss-harcok igazi kihívást nyújtanak. Klasszikus.", "createdAt": "2024-01-05T12:00:00Z" },
-    { "id": 14, "gameId": 5,  "userId": 2,  "username": "pixelhunter_anna",  "rating": 5, "content": "Minden egyes képkocka festménynek tűnik. A nehézségi szint frusztráló, de megéri.", "createdAt": "2024-03-12T08:30:00Z" },
-    { "id": 15, "gameId": 5,  "userId": 7,  "username": "casualgamer_zsuzsa","rating": 3, "content": "Gyönyörű játék, de sajnos túl nehéznek találtam. Csak erős idegzetűeknek ajánlom.", "createdAt": "2024-04-25T15:50:00Z" },
-    { "id": 16, "gameId": 6,  "userId": 1,  "username": "gamer_krisztian",   "rating": 4, "content": "2.0 patchel végre a játék, aminek lennie kellett volna. Night City életre kelt.", "createdAt": "2024-02-10T22:00:00Z" },
-    { "id": 17, "gameId": 6,  "userId": 10, "username": "pvpmaster_adam",    "rating": 5, "content": "A Phantom Liberty DLC az egyik legjobb kiegészítő, amit valaha játszottam.", "createdAt": "2024-03-05T20:15:00Z" },
-    { "id": 18, "gameId": 6,  "userId": 8,  "username": "lorekeeper_peter",  "rating": 4, "content": "A világ részletessége és a mellékszereplők mélysége kiemelkedő. V és Johnny dinamikája brilliáns.", "createdAt": "2024-04-18T11:00:00Z" },
-    { "id": 19, "gameId": 7,  "userId": 9,  "username": "npcfan_nora",       "rating": 5, "content": "Kara, Connor és Markus mind páratlan karakterek. Sokszor könnyekig meghatódtam.", "createdAt": "2024-01-28T19:45:00Z" },
-    { "id": 20, "gameId": 7,  "userId": 7,  "username": "casualgamer_zsuzsa","rating": 5, "content": "Interaktív filmnek tökéletes. A döntési rendszer valóban érzi magát súlyosnak.", "createdAt": "2024-03-02T14:30:00Z" },
-    { "id": 21, "gameId": 7,  "userId": 4,  "username": "indieguru_reka",    "rating": 4, "content": "A grafika még ma is lenyűgöző. Kicsit lineárisabb, mint vártam, de a sztori kárpótol.", "createdAt": "2024-04-08T10:00:00Z" },
-    { "id": 22, "gameId": 8,  "userId": 1,  "username": "gamer_krisztian",   "rating": 5, "content": "Barátokkal játszva az egyik legfélelmetesebb élmény. A hangulat tökéletes.", "createdAt": "2024-02-05T23:00:00Z" },
-    { "id": 23, "gameId": 8,  "userId": 6,  "username": "speedrunner_david",  "rating": 4, "content": "Egyedül is ijesztő, de a kooperatív mód emeli a játékot egy teljesen más szintre.", "createdAt": "2024-03-20T21:30:00Z" },
-    { "id": 24, "gameId": 8,  "userId": 2,  "username": "pixelhunter_anna",  "rating": 4, "content": "A szellemek azonosítása szinte tudományos igényességet kíván. Nagyszerű ötlet.", "createdAt": "2024-05-10T20:00:00Z" },
-    { "id": 25, "gameId": 9,  "userId": 9,  "username": "npcfan_nora",       "rating": 5, "content": "Max és Chloe kapcsolata az egyik legemlékezetesebb a játéktörténelemben. Örökre a szívemben marad.", "createdAt": "2024-01-12T18:00:00Z" },
-    { "id": 26, "gameId": 9,  "userId": 4,  "username": "indieguru_reka",    "rating": 4, "content": "Zseniális időutazásos mechanika. Az utolsó epizód döntése máig kísért.", "createdAt": "2024-02-18T16:20:00Z" },
-    { "id": 27, "gameId": 9,  "userId": 7,  "username": "casualgamer_zsuzsa","rating": 4, "content": "Érzelmileg megterhelő, de nagyon szép utazás. A zenéje különösen hangulatos.", "createdAt": "2024-04-14T13:00:00Z" },
-    { "id": 28, "gameId": 10, "userId": 2,  "username": "pixelhunter_anna",  "rating": 5, "content": "Valami egészen különleges élmény. A macska animációja és a cyberpunk világ tökéletes párosítás.", "createdAt": "2024-01-30T17:30:00Z" },
-    { "id": 29, "gameId": 10, "userId": 7,  "username": "casualgamer_zsuzsa","rating": 5, "content": "Minden macskajáték rajongónak kötelező. Bár rövid, a hangulata felejthetetlen.", "createdAt": "2024-03-08T15:00:00Z" },
-    { "id": 30, "gameId": 10, "userId": 4,  "username": "indieguru_reka",    "rating": 4, "content": "Gyönyörű világ, kedves karakterek, de egy kicsit rövid. Többet kértem volna belőle.", "createdAt": "2024-04-28T12:00:00Z" },
-    { "id": 31, "gameId": 11, "userId": 10, "username": "pvpmaster_adam",    "rating": 5, "content": "Kompetitív szinten az egyik legkielégítőbb esport élmény. Az aerials elsajátítása hónapokba telt.", "createdAt": "2024-02-12T19:00:00Z" },
-    { "id": 32, "gameId": 11, "userId": 1,  "username": "gamer_krisztian",   "rating": 4, "content": "Casualan is szórakoztató, de a ranked mód igazi szenvedélybetegséget okoz.", "createdAt": "2024-03-25T20:30:00Z" },
-    { "id": 33, "gameId": 11, "userId": 6,  "username": "speedrunner_david",  "rating": 4, "content": "A mechanikák mélysége végtelen. Évek után is találok új technikákat.", "createdAt": "2024-05-05T18:00:00Z" },
-    { "id": 34, "gameId": 12, "userId": 6,  "username": "speedrunner_david",  "rating": 3, "content": "A metaalapú kompetitív játékmenet nem az én stílusom, de értékelem a folyamatos fejlesztéseket.", "createdAt": "2024-01-22T15:00:00Z" },
-    { "id": 35, "gameId": 12, "userId": 10, "username": "pvpmaster_adam",    "rating": 4, "content": "Ingyenesen az egyik legtartalmasabb battle royale. Az építési rendszer védjegy.", "createdAt": "2024-03-15T14:00:00Z" },
-    { "id": 36, "gameId": 12, "userId": 1,  "username": "gamer_krisztian",   "rating": 3, "content": "A kollaborációs események érdekesek, de a microtransaction rendszer túl agresszív.", "createdAt": "2024-04-20T16:30:00Z" },
-    { "id": 37, "gameId": 13, "userId": 3,  "username": "darksouls_bence",   "rating": 5, "content": "A FromSoftware csúcsteljesítménye. A nyílt világ tökéletesen ötvözi a felfedezést a kihívással.", "createdAt": "2024-01-08T21:00:00Z" },
-    { "id": 38, "gameId": 13, "userId": 8,  "username": "lorekeeper_peter",  "rating": 5, "content": "George R.R. Martin hatása érezhető a részletes mitológiában. A Lands Between lebilincselő.", "createdAt": "2024-02-20T20:00:00Z" },
-    { "id": 39, "gameId": 13, "userId": 1,  "username": "gamer_krisztian",   "rating": 4, "content": "Nehéz, de igazságos. Minden egyes boss legyőzése igazi diadal érzését adja.", "createdAt": "2024-04-05T17:00:00Z" },
-    { "id": 40, "gameId": 14, "userId": 5,  "username": "retroplayer_tamas", "rating": 5, "content": "Tíz éve játszom és még mindig van mit felfedezni. A kreatív mód határai az égig érnek.", "createdAt": "2024-01-18T11:00:00Z" },
-    { "id": 41, "gameId": 14, "userId": 7,  "username": "casualgamer_zsuzsa","rating": 5, "content": "A gyerekeimmel együtt építgetünk, és ezek az egyik legjobb közös élményeink.", "createdAt": "2024-02-25T16:00:00Z" },
-    { "id": 42, "gameId": 14, "userId": 4,  "username": "indieguru_reka",    "rating": 4, "content": "A modern sandbox játékok alapja. Annak ellenére, hogy régóta létezik, még mindig megkerülhetetlen.", "createdAt": "2024-03-28T12:30:00Z" },
-    { "id": 43, "gameId": 15, "userId": 10, "username": "pvpmaster_adam",    "rating": 5, "content": "A legtökéletesebb kompetitív lövöldözős élmény. Minden meccs más és más.", "createdAt": "2024-01-25T22:00:00Z" },
-    { "id": 44, "gameId": 15, "userId": 6,  "username": "speedrunner_david",  "rating": 5, "content": "CS2 grafikusan hatalmas ugrás, de a core gameplay ugyanolyan precíz maradt. Örök klasszikus.", "createdAt": "2024-03-10T21:00:00Z" },
-    { "id": 45, "gameId": 15, "userId": 1,  "username": "gamer_krisztian",   "rating": 4, "content": "A matchmaking javult, de a toxikus játékosok még mindig problémát jelentenek.", "createdAt": "2024-04-22T20:00:00Z" },
-    { "id": 46, "gameId": 16, "userId": 3,  "username": "darksouls_bence",   "rating": 5, "content": "A Souls-like műfaj 2D-s tökéletesítése. A boss-harcok tervezése zseniális.", "createdAt": "2024-02-08T18:30:00Z" },
-    { "id": 47, "gameId": 16, "userId": 4,  "username": "indieguru_reka",    "rating": 5, "content": "Az indie játékipar egyik gyöngyszeme. A vizuális stílus és az atmoszféra páratlan.", "createdAt": "2024-03-22T15:00:00Z" },
-    { "id": 48, "gameId": 16, "userId": 2,  "username": "pixelhunter_anna",  "rating": 5, "content": "Hallownest térképe a legintelligensebben megépített játékvilág, amit valaha láttam.", "createdAt": "2024-05-08T14:00:00Z" },
-    { "id": 49, "gameId": 17, "userId": 3,  "username": "darksouls_bence",   "rating": 5, "content": "A roguelike és a narratíva tökéletes ötvözése. Minden futás előrébb viszi a történetet.", "createdAt": "2024-01-10T20:00:00Z" },
-    { "id": 50, "gameId": 17, "userId": 8,  "username": "lorekeeper_peter",  "rating": 5, "content": "A görög mitológia átdolgozása briliáns. Zagreus és apja dinamikája a játék lelke.", "createdAt": "2024-02-16T19:00:00Z" },
-    { "id": 51, "gameId": 17, "userId": 4,  "username": "indieguru_reka",    "rating": 5, "content": "Supergiant Games legérettebb alkotása. Minden egyes halálfutás tanulságos és szórakoztató.", "createdAt": "2024-04-12T17:30:00Z" }
-  ]
+    {
+      "id": "1",
+      "gameId": 1,
+      "username": "gamer_krisztian",
+      "rating": 5,
+      "content": "Több mint 500 óra és még mindig találok új dolgokat. Az egyik legjobb sandbox játék valaha.",
+      "createdAt": "2024-03-10T14:22:00Z"
+    },
+    {
+      "id": "2",
+      "gameId": 1,
+      "username": "indieguru_reka",
+      "rating": 5,
+      "content": "A bossok és az építési lehetőségek tökéletes egyensúlya. Minecraft után ez kötelező.",
+      "createdAt": "2024-04-02T09:10:00Z"
+    },
+    {
+      "id": "3",
+      "gameId": 1,
+      "username": "casualgamer_zsuzsa",
+      "rating": 4,
+      "content": "Nagyon élveztem, bár eleinte kicsit elveszett voltam az óriási tartalomban.",
+      "createdAt": "2024-05-15T18:45:00Z"
+    },
+    {
+      "id": "4",
+      "gameId": 2,
+      "username": "indieguru_reka",
+      "rating": 5,
+      "content": "Az Undertale megváltoztatta, hogyan gondolok a videojátékokra. A zenéje és a sztorija páratlan.",
+      "createdAt": "2024-01-20T11:30:00Z"
+    },
+    {
+      "id": "5",
+      "gameId": 2,
+      "username": "npcfan_nora",
+      "rating": 5,
+      "content": "Sírva végeztem el. A karakterek annyira élnek, hogy nehéz elhinni, hogy csak pixelek.",
+      "createdAt": "2024-02-14T20:05:00Z"
+    },
+    {
+      "id": "6",
+      "gameId": 2,
+      "username": "retroplayer_tamas",
+      "rating": 4,
+      "content": "Zseniális ötletek, de a pacifista végigjátszáshoz nagyon sok türelem kell.",
+      "createdAt": "2024-03-30T16:00:00Z"
+    },
+    {
+      "id": "7",
+      "gameId": 3,
+      "username": "casualgamer_zsuzsa",
+      "rating": 5,
+      "content": "Terapeutikus hatása van. Tél végén mindig visszatérek hozzá, mint valami rituálé.",
+      "createdAt": "2024-02-28T21:00:00Z"
+    },
+    {
+      "id": "8",
+      "gameId": 3,
+      "username": "npcfan_nora",
+      "rating": 5,
+      "content": "A falubeliek karakterei olyan mélyek. Harvey és Penny a kedvenceim.",
+      "createdAt": "2024-04-10T10:20:00Z"
+    },
+    {
+      "id": "9",
+      "gameId": 3,
+      "username": "pixelhunter_anna",
+      "rating": 4,
+      "content": "Tökéletes relaxációs játék, de a bányászás egy idő után repetitívvé válik.",
+      "createdAt": "2024-05-01T13:40:00Z"
+    },
+    {
+      "id": "10",
+      "gameId": 4,
+      "username": "lorekeeper_peter",
+      "rating": 4,
+      "content": "Kojima megint a saját útját járja. A világ felépítése és az atmoszféra lenyűgöző, bár a gameplay megosztó.",
+      "createdAt": "2024-01-15T19:30:00Z"
+    },
+    {
+      "id": "11",
+      "gameId": 5,
+      "username": "speedrunner_david",
+      "rating": 5,
+      "content": "A vizuális stílus elképesztő, és a boss-harcok igazi kihívást nyújtanak. Klasszikus.",
+      "createdAt": "2024-01-05T12:00:00Z"
+    },
+    {
+      "id": "12",
+      "gameId": 6,
+      "username": "gamer_krisztian",
+      "rating": 4,
+      "content": "2.0 patchel végre a játék, aminek lennie kellett volna. Night City életre kelt.",
+      "createdAt": "2024-02-10T22:00:00Z"
+    },
+    {
+      "id": "13",
+      "gameId": 7,
+      "username": "npcfan_nora",
+      "rating": 5,
+      "content": "Kara, Connor és Markus mind páratlan karakterek. Sokszor könnyekig meghatódtam.",
+      "createdAt": "2024-01-28T19:45:00Z"
+    },
+    {
+      "id": "14",
+      "gameId": 8,
+      "username": "gamer_krisztian",
+      "rating": 5,
+      "content": "Barátokkal játszva az egyik legfélelmetesebb élmény. A hangulat tökéletes.",
+      "createdAt": "2024-02-05T23:00:00Z"
+    },
+    {
+      "id": "15",
+      "gameId": 9,
+      "username": "npcfan_nora",
+      "rating": 5,
+      "content": "Max és Chloe kapcsolata az egyik legemlékezetesebb a játéktörténelemben. Örökre a szívemben marad.",
+      "createdAt": "2024-01-12T18:00:00Z"
+    },
+    {
+      "id": "16",
+      "gameId": 10,
+      "username": "pixelhunter_anna",
+      "rating": 5,
+      "content": "Valami egészen különleges élmény. A macska animációja és a cyberpunk világ tökéletes párosítás.",
+      "createdAt": "2024-01-30T17:30:00Z"
+    },
+    {
+      "id": "17",
+      "gameId": 11,
+      "username": "pvpmaster_adam",
+      "rating": 5,
+      "content": "Kompetitív szinten az egyik legkielégítőbb esport élmény. Az aerials elsajátítása hónapokba telt.",
+      "createdAt": "2024-02-12T19:00:00Z"
+    },
+    {
+      "id": "18",
+      "gameId": 12,
+      "username": "darksouls_bence",
+      "rating": 5,
+      "content": "A FromSoftware csúcsteljesítménye. A nyílt világ tökéletesen ötvözi a felfedezést a kihívással.",
+      "createdAt": "2024-01-08T21:00:00Z"
+    },
+    {
+      "id": "19",
+      "gameId": 13,
+      "username": "retroplayer_tamas",
+      "rating": 5,
+      "content": "Tíz éve játszom és még mindig van mit felfedezni. A kreatív mód határai az égig érnek.",
+      "createdAt": "2024-01-18T11:00:00Z"
+    },
+    {
+      "id": "20",
+      "gameId": 14,
+      "username": "pvpmaster_adam",
+      "rating": 5,
+      "content": "A legtökéletesebb kompetitív lövöldözős élmény. Minden meccs más és más.",
+      "createdAt": "2024-01-25T22:00:00Z"
+    },
+    {
+      "id": "21",
+      "gameId": 15,
+      "username": "darksouls_bence",
+      "rating": 5,
+      "content": "A Souls-like műfaj 2D-s tökéletesítése. A boss-harcok tervezése zseniális.",
+      "createdAt": "2024-02-08T18:30:00Z"
+    },
+    {
+      "id": "22",
+      "gameId": 16,
+      "username": "darksouls_bence",
+      "rating": 5,
+      "content": "A roguelike és a narratíva tökéletes ötvözése. Minden futás előrébb viszi a történetet.",
+      "createdAt": "2024-01-10T20:00:00Z"
+    },
+    {
+      "id": "23",
+      "gameId": 6,
+      "username": "jatekos_gergo",
+      "rating": 2,
+      "content": "A történet jó, de nálam még mindig sok bug volt. Nem azt kaptam, amit vártam.",
+      "createdAt": "2024-06-02T14:12:00Z"
+    },
+    {
+      "id": "24",
+      "gameId": 11,
+      "username": "rl_noob",
+      "rating": 3,
+      "content": "Jó játék, de nagyon nehéz bekerülni a kompetitív részébe.",
+      "createdAt": "2024-06-04T18:45:00Z"
+    },
+    {
+      "id": "25",
+      "gameId": 14,
+      "username": "casual_laci",
+      "rating": 1,
+      "content": "Túl kompetitív nekem, állandóan kikapok.",
+      "createdAt": "2024-06-07T20:15:00Z"
+    },
+    {
+      "id": "26",
+      "gameId": 4,
+      "username": "akcio_jani",
+      "rating": 3,
+      "content": "Szép a világ, de a csomaghordás engem hamar untatott.",
+      "createdAt": "2024-06-09T16:30:00Z"
+    },
+    {
+      "id": "27",
+      "gameId": 8,
+      "username": "fearless_peti",
+      "rating": 2,
+      "content": "Barátokkal vicces, de egyedül szerintem unalmas.",
+      "createdAt": "2024-06-10T21:00:00Z"
+    },
+    {
+      "id": "28",
+      "gameId": 13,
+      "username": "survival_tomi",
+      "rating": 4,
+      "content": "Nagyon jó játék, de hosszabb szünet után nehéz visszarázódni.",
+      "createdAt": "2024-06-12T09:50:00Z"
+    },
+    {
+      "id": "29",
+      "gameId": 12,
+      "username": "ragequit_bence",
+      "rating": 2,
+      "content": "Szép világ, de túl nehéz nekem.",
+      "createdAt": "2024-06-14T19:00:00Z"
+    },
+    {
+      "id": "30",
+      "gameId": 3,
+      "username": "farmer_ani",
+      "rating": 5,
+      "content": "Több száz órát raktam bele. Kikapcsol és megnyugtat.",
+      "createdAt": "2024-06-15T13:25:00Z"
+    },
+    {
+      "id": "31",
+      "gameId": 15,
+      "username": "metroid_krisz",
+      "rating": 4,
+      "content": "Nagyon jó, de néha elvesztem a pályák között.",
+      "createdAt": "2024-06-16T17:10:00Z"
+    },
+    {
+      "id": "32",
+      "gameId": 1,
+      "username": "builder_mate",
+      "rating": 5,
+      "content": "A Terraria az egyik legjobb játék, amivel valaha játszottam.",
+      "createdAt": "2024-06-18T14:00:00Z"
+    },
+    {
+      "id": "33",
+      "gameId": 1,
+      "username": "newplayer_boti",
+      "rating": 3,
+      "content": "Jó, de kezdőként nagyon nehéz eligazodni.",
+      "createdAt": "2024-06-18T18:00:00Z"
+    },
+    {
+      "id": "34",
+      "gameId": 2,
+      "username": "story_king",
+      "rating": 5,
+      "content": "Az egyik legjobb történet, amit videojátékban láttam.",
+      "createdAt": "2024-06-19T12:30:00Z"
+    },
+    {
+      "id": "35",
+      "gameId": 2,
+      "username": "combat_fan",
+      "rating": 2,
+      "content": "A harcrendszer nem igazán tetszett.",
+      "createdAt": "2024-06-19T16:15:00Z"
+    },
+    {
+      "id": "36",
+      "gameId": 5,
+      "username": "bosshunter",
+      "rating": 5,
+      "content": "A bossfightok fantasztikusak.",
+      "createdAt": "2024-06-20T10:00:00Z"
+    },
+    {
+      "id": "37",
+      "gameId": 5,
+      "username": "angry_gamer",
+      "rating": 1,
+      "content": "Túl nehéz, folyton meghalok.",
+      "createdAt": "2024-06-20T20:00:00Z"
+    },
+    {
+      "id": "38",
+      "gameId": 6,
+      "username": "nightcity_fan",
+      "rating": 5,
+      "content": "Mostanra tényleg remek játék lett.",
+      "createdAt": "2024-06-21T09:30:00Z"
+    },
+    {
+      "id": "39",
+      "gameId": 7,
+      "username": "choice_master",
+      "rating": 4,
+      "content": "Nagyon jók a döntések és a következmények.",
+      "createdAt": "2024-06-21T17:00:00Z"
+    },
+    {
+      "id": "40",
+      "gameId": 8,
+      "username": "ghost_hunter",
+      "rating": 5,
+      "content": "Barátokkal az egyik legjobb horror élmény.",
+      "createdAt": "2024-06-22T22:15:00Z"
+    },
+    {
+      "id": "41",
+      "gameId": 9,
+      "username": "maxfan",
+      "rating": 4,
+      "content": "A történet miatt érdemes végigjátszani.",
+      "createdAt": "2024-06-23T11:00:00Z"
+    },
+    {
+      "id": "42",
+      "gameId": 10,
+      "username": "catlover",
+      "rating": 5,
+      "content": "Macskás játék, ennél több nem is kell.",
+      "createdAt": "2024-06-23T18:00:00Z"
+    },
+    {
+      "id": "43",
+      "gameId": 11,
+      "username": "ranked_player",
+      "rating": 4,
+      "content": "Nagyon élvezetes, ha van csapatod.",
+      "createdAt": "2024-06-24T15:00:00Z"
+    },
+    {
+      "id": "44",
+      "gameId": 12,
+      "username": "souls_veteran",
+      "rating": 5,
+      "content": "A felfedezés élménye páratlan.",
+      "createdAt": "2024-06-25T13:00:00Z"
+    },
+    {
+      "id": "45",
+      "gameId": 13,
+      "username": "creative_builder",
+      "rating": 5,
+      "content": "A kreativitásnak tényleg semmi sem szab határt.",
+      "createdAt": "2024-06-25T17:45:00Z"
+    },
+    {
+      "id": "46",
+      "gameId": 14,
+      "username": "silver_player",
+      "rating": 3,
+      "content": "Jó, de túl sok a csaló és a smurf.",
+      "createdAt": "2024-06-26T19:00:00Z"
+    },
+    {
+      "id": "47",
+      "gameId": 15,
+      "username": "explorer_hun",
+      "rating": 5,
+      "content": "A hangulat és a világ fantasztikus.",
+      "createdAt": "2024-06-27T12:20:00Z"
+    },
+    {
+      "id": "48",
+      "gameId": 15,
+      "username": "lost_player",
+      "rating": 3,
+      "content": "Sokszor nem tudtam merre kell menni.",
+      "createdAt": "2024-06-27T21:00:00Z"
+    },
+    {
+      "id": "49",
+      "gameId": 16,
+      "username": "roguelike_fan",
+      "rating": 5,
+      "content": "Minden menet után vissza akarok menni játszani.",
+      "createdAt": "2024-06-28T14:30:00Z"
+    },
+    {
+      "id": "50",
+      "gameId": 16,
+      "username": "casual_player",
+      "rating": 2,
+      "content": "Nekem túl gyors és túl nehéz volt.",
+      "createdAt": "2024-06-28T20:15:00Z"
+    },
+    {
+      "id": "51",
+      "gameId": 17,
+      "username": "pubg_hun",
+      "rating": 5,
+      "content": "A battle royale műfaj királya szerintem.",
+      "createdAt": "2024-07-01T14:00:00Z"
+    },
+    {
+      "id": "52",
+      "gameId": 17,
+      "username": "sniper_bence",
+      "rating": 4,
+      "content": "Nagyon jó, de néha túl lassú a játék eleje.",
+      "createdAt": "2024-07-02T18:20:00Z"
+    },
+    {
+      "id": "53",
+      "gameId": 17,
+      "username": "casual_gergo",
+      "rating": 2,
+      "content": "Nekem túl realisztikus és nehéz.",
+      "createdAt": "2024-07-03T21:00:00Z"
+    },
+    {
+      "id": "54",
+      "gameId": 17,
+      "username": "winnerwinner",
+      "rating": 5,
+      "content": "Az első chicken dinner érzése felejthetetlen.",
+      "createdAt": "2024-07-04T12:15:00Z"
+    },
+    {
+      "id": "55",
+      "gameId": 18,
+      "username": "apex_main",
+      "rating": 5,
+      "content": "A mozgásrendszer az egyik legjobb FPS-ben.",
+      "createdAt": "2024-07-05T15:30:00Z"
+    },
+    {
+      "id": "56",
+      "gameId": 18,
+      "username": "wraith_player",
+      "rating": 4,
+      "content": "Nagyon jó csapatjáték, de kezdőknek nehéz.",
+      "createdAt": "2024-07-06T17:10:00Z"
+    },
+    {
+      "id": "57",
+      "gameId": 18,
+      "username": "solo_gamer",
+      "rating": 2,
+      "content": "Egyedül játszva sokszor frusztráló.",
+      "createdAt": "2024-07-07T20:00:00Z"
+    },
+    {
+      "id": "58",
+      "gameId": 18,
+      "username": "movement_king",
+      "rating": 5,
+      "content": "A gunplay és a movement zseniális.",
+      "createdAt": "2024-07-08T11:45:00Z"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
