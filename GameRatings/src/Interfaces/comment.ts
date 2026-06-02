@@ -1,8 +1,8 @@
-export interface Game {
+export interface Comment {
   id: string;
-  title: string;
-  releaseDate: string;
-  genre: string;
-  description: string;
-  imageUrl: string;
+  gameId: number;
+  username: string;
+  rating: number;
+  content: string;
+  createdAt: string;
 }
