@@ -16,7 +16,36 @@
 
   <div class="bg-dark border-bottom border-secondary px-4 py-3">
     <div class="d-flex flex-wrap align-items-center gap-2">
-      
+
+      <input type="text" id="search-input"
+        class="form-control form-control-sm bg-secondary text-light border-0"
+        placeholder="🔍 Keresés..."
+        style="max-width:200px">
+
+      <div class="d-flex flex-wrap gap-1" id="genre-buttons">
+        <button class="btn btn-sm genre-btn active" data-genre="">Összes</button>
+        <button class="btn btn-sm genre-btn" data-genre="indie">Indie</button>
+        <button class="btn btn-sm genre-btn" data-genre="horror">Horror</button>
+        <button class="btn btn-sm genre-btn" data-genre="rpg">RPG</button>
+        <button class="btn btn-sm genre-btn" data-genre="action">Akció</button>
+        <button class="btn btn-sm genre-btn" data-genre="sandbox">Sandbox</button>
+        <button class="btn btn-sm genre-btn" data-genre="simulation">Szimuláció</button>
+        <button class="btn btn-sm genre-btn" data-genre="sports">Sport</button>
+        <button class="btn btn-sm genre-btn" data-genre="battle royale">Battle Royale</button>
+      </div>
+
+      <div class="d-flex gap-1 ms-auto">
+        <button class="btn btn-sm sort-btn" data-sort="title" title="Cím szerint">
+          Cím <span class="sort-arrow" data-sort="title">↕</span>
+        </button>
+        <button class="btn btn-sm sort-btn" data-sort="date" title="Megjelenés szerint">
+          Dátum <span class="sort-arrow" data-sort="date">↕</span>
+        </button>
+        <button class="btn btn-sm sort-btn" data-sort="rating" title="Értékelés szerint">
+          Értékelés <span class="sort-arrow" data-sort="rating">↕</span>
+        </button>
+      </div>
+
     </div>
   </div>
 
