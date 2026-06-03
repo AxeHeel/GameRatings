@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 import "./style.css";
 import type { Game } from "./Interfaces/game";
 import type { Comment } from "./Interfaces/comment";
@@ -182,4 +180,3 @@ function renderApp(): void {
     //renderGameDetail(gameId) //egy játék részletes oldalát kell majd megjeleníteni, ahol ott lesznek a kommentek is;
   }
 }
->>>>>>> Backend
