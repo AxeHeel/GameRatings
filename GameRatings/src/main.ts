@@ -381,3 +381,183 @@ function renderGameDetail(gameId: string): void {
     </section>
   `;
 }
+
+function renderComment(comment: Comment): string {
+  let buttons = "";
+
+  if (isMyComment(comment)) {
+    buttons = `
+      <div class="comment-actions">
+        <button class="small-btn edit-comment-btn" data-id="${comment.id}">Módosítás</button>
+        <button class="small-btn delete-comment-btn" data-id="${comment.id}">Törlés</button>
+      </div>
+    `;
+  }
+
+  return `
+    <article class="comment-card">
+      <div class="comment-head">
+        <div>
+          <strong>${html(comment.username)}</strong>
+          <span>${formatDate(comment.createdAt)}</span>
+        </div>
+        <div>${getStars(comment.rating)} <b>${comment.rating}/5</b></div>
+      </div>
+      <p>${html(comment.content)}</p>
+      ${buttons}
+    </article>
+  `;
+}
+
+function goHome(): void {
+  state.searchText = "";
+  state.selectedGenre = "";
+  searchInput.value = "";
+
+  window.location.hash = "#/";
+  renderGameList();
+}
+
+async function addComment(form: HTMLFormElement, gameId: string): Promise<void> {
+  const usernameInput = document.getElementById("comment-username") as HTMLInputElement;
+  const ratingSelect = document.getElementById("comment-rating") as HTMLSelectElement;
+  const contentInput = document.getElementById("comment-content") as HTMLTextAreaElement;
+
+  const username = usernameInput.value.trim();
+  const rating = Number(ratingSelect.value);
+  const content = contentInput.value.trim();
+
+  if (username === "") {
+    showMessage("A név mező kötelező.");
+    return;
+  }
+
+  if (content === "") {
+    showMessage("A komment szövege kötelező.");
+    return;
+  }
+
+  if (rating < 1 || rating > 5) {
+    showMessage("Az értékelés 1 és 5 között legyen.");
+    return;
+  }
+
+  const newComment: Comment = {
+    id: Math.random().toString(36).substring(2, 13),
+    gameId: Number(gameId),
+    username: username,
+    rating: rating,
+    content: content,
+    createdAt: new Date().toISOString(),
+  };
+
+  try {
+    const savedComment = await createComment(newComment);
+    state.comments.push(savedComment);
+    saveMyCommentId(savedComment.id);
+    form.reset();
+    showMessage("Komment hozzáadva.");
+    renderGameDetail(gameId);
+  } catch (error) {
+    console.log(error);
+    showMessage("Nem sikerült hozzáadni a kommentet.");
+  }
+}
+
+async function editComment(id: string): Promise<void> {
+  let selectedComment: Comment | null = null;
+
+  for (const comment of state.comments) {
+    if (String(comment.id) === id) {
+      selectedComment = comment;
+    }
+  }
+
+  if (selectedComment === null) {
+    return;
+  }
+
+  if (!isMyComment(selectedComment)) {
+    showMessage("Csak a saját kommentet módosíthatod.");
+    return;
+  }
+
+  const newContent = prompt("Komment szövege:", selectedComment.content);
+
+  if (newContent === null || newContent.trim() === "") {
+    return;
+  }
+
+  const newRatingText = prompt("Értékelés 1 és 5 között:", String(selectedComment.rating));
+
+  if (newRatingText === null) {
+    return;
+  }
+
+  const newRating = Number(newRatingText);
+
+  if (!Number.isInteger(newRating) || newRating < 1 || newRating > 5) {
+    showMessage("Az értékelés 1 és 5 közötti egész szám legyen.");
+    return;
+  }
+
+  try {
+    const updatedComment = await updateComment(id, newContent.trim(), newRating);
+
+    for (let i = 0; i < state.comments.length; i++) {
+      if (String(state.comments[i].id) === id) {
+        state.comments[i] = updatedComment;
+      }
+    }
+
+    showMessage("Komment módosítva.");
+    renderGameDetail(String(selectedComment.gameId));
+  } catch (error) {
+    console.log(error);
+    showMessage("Nem sikerült módosítani a kommentet.");
+  }
+}
+
+async function removeComment(id: string): Promise<void> {
+  let selectedComment: Comment | null = null;
+
+  for (const comment of state.comments) {
+    if (String(comment.id) === id) {
+      selectedComment = comment;
+    }
+  }
+
+  if (selectedComment === null) {
+    return;
+  }
+
+  if (!isMyComment(selectedComment)) {
+    return;
+  }
+
+  const shouldDelete = confirm("Biztosan törlöd ezt a kommentet?");
+
+  if (!shouldDelete) {
+    return;
+  }
+
+  try {
+    await deleteComment(id);
+
+    const newComments: Comment[] = [];
+
+    for (const comment of state.comments) {
+      if (String(comment.id) !== id) {
+        newComments.push(comment);
+      }
+    }
+
+    state.comments = newComments;
+    removeMyCommentId(id);
+    showMessage("Komment törölve.");
+    renderGameDetail(String(selectedComment.gameId));
+  } catch (error) {
+    console.log(error);
+    showMessage("Nem sikerült törölni a kommentet.");
+  }
+}
