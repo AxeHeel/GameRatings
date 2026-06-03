@@ -322,7 +322,7 @@ function renderGameDetail(gameId: string): void {
   let commentsHtml = "";
 
   for (const comment of comments) {
-    //commentsHtml += renderComment(comment) meg kene csinalni az osszes komment megjeleniteset a kommentek listaban;
+    commentsHtml += renderComment(comment);
   }
 
   if (commentsHtml === "") {
@@ -561,3 +561,126 @@ async function removeComment(id: string): Promise<void> {
     showMessage("Nem sikerült törölni a kommentet.");
   }
 }
+
+document.addEventListener("click", function (event) {
+  const target = event.target as HTMLElement;
+  const gameRow = target.closest(".game-row") as HTMLElement | null;
+
+  if (gameRow !== null) {
+    const id = gameRow.dataset.gameId;
+    window.location.hash = `#/game/${id}`;
+    return;
+  }
+
+  const backButton = target.closest("#back-btn");
+
+  if (backButton !== null) {
+    goHome();
+    return;
+  }
+
+  const editButton = target.closest(".edit-comment-btn") as HTMLButtonElement | null;
+
+  if (editButton !== null) {
+    const id = editButton.dataset.id ?? "";
+    editComment(id);
+    return;
+  }
+
+  const deleteButton = target.closest(".delete-comment-btn") as HTMLButtonElement | null;
+
+  if (deleteButton !== null) {
+    const id = deleteButton.dataset.id ?? "";
+    removeComment(id);
+    return;
+  }
+});
+
+document.addEventListener("submit", function (event) {
+  const form = event.target as HTMLFormElement;
+
+  if (form.id !== "comment-form") {
+    return;
+  }
+
+  event.preventDefault();
+
+  const gameId = getGameIdFromUrl();
+
+  if (gameId !== null) {
+    addComment(form, gameId);
+  }
+});
+
+searchInput.addEventListener("input", function () {
+  state.searchText = searchInput.value;
+
+  if (getGameIdFromUrl() !== null) {
+    window.location.hash = "#/";
+  }
+
+  renderGameList();
+});
+
+homeLink.addEventListener("click", function (event) {
+  event.preventDefault();
+  goHome();
+});
+
+const genreButtons = document.querySelectorAll<HTMLButtonElement>(".genre-btn");
+
+genreButtons.forEach(function (button) {
+  button.addEventListener("click", function () {
+    state.selectedGenre = button.dataset.genre ?? "";
+
+    genreButtons.forEach(function (genreButton) {
+      genreButton.classList.remove("active");
+    });
+
+    button.classList.add("active");
+
+    if (getGameIdFromUrl() !== null) {
+      window.location.hash = "#/";
+    }
+
+    renderGameList();
+  });
+});
+
+const sortButtons = document.querySelectorAll<HTMLButtonElement>(".sort-btn");
+
+sortButtons.forEach(function (button) {
+  button.addEventListener("click", function () {
+    const sortValue = button.dataset.sort;
+
+    if (sortValue === undefined) {
+      return;
+    }
+
+    if (state.sortBy === sortValue) {
+      if (state.sortDirection === "asc") {
+        state.sortDirection = "desc";
+      } else {
+        state.sortDirection = "asc";
+      }
+    } else {
+      state.sortBy = sortValue;
+
+      if (sortValue === "rating" || sortValue === "date") {
+        state.sortDirection = "desc";
+      } else {
+        state.sortDirection = "asc";
+      }
+    }
+
+    if (getGameIdFromUrl() !== null) {
+      window.location.hash = "#/";
+    }
+
+    renderGameList();
+  });
+});
+
+window.addEventListener("hashchange", renderApp);
+
+loadData();
